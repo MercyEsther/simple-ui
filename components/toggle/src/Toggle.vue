@@ -91,9 +91,9 @@
     }
 
     & .items{
-        position: flxed;
+        position: fixed;
         z-index: 5;
-        top: 0;
+        top: 12vw;
         left:0;
         padding: 0vw 10vw;
         width: 100vw;
@@ -154,6 +154,13 @@
     width: 100%;
     height: 2px;
     background-color: $light-grey;
+    }
+}
+.toggle-color-blue{
+    & .line{
+    width: 100%;
+    height: 2px;
+    background-color: $blue;
     }
 }
 

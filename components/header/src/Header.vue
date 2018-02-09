@@ -54,10 +54,10 @@
     align-items: center;
     overflow: hidden;
 }
-.header-color-default{
-    background-color: $light-grey;
+.header-color-white{
+    background-color: white;
     color: $black;
-    border: 1px solid #eee;
+    border: 1px solid $light-grey;
 
     & span{
         color: $dark-grey;
@@ -79,6 +79,20 @@
 
     & .title-wrapper span{
         color: white;
+        font-weight: bold;
+    }
+}
+.header-color-blue{
+    background-color: white;
+    color: $blue;
+    border: 1px solid $light-grey;
+
+    & span{
+        color: $blue;
+    }
+
+    & .title-wrapper span{
+        color: $black;
         font-weight: bold;
     }
 }

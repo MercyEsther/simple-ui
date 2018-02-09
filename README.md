@@ -128,3 +128,31 @@ name: "sp-footer"
 ```html
 <sp-footer theme="sea" :items="items"/>
 ```
+
+## Waiting
+
+name: "sp-waiting"
+
+#### params
+
+* @param {string} tips
+
+#### use
+
+```javascript
+<sp-waiting tips="page is loading"/>
+```
+
+## Panel
+
+name: "sp-panel"
+
+#### params
+
+ * @param {String} title
+ * @param {Array} items
+ * @param {theme} theme
+
+```javascript
+<sp-panel class="panel" title="常用功能" theme="default" :items="items"/>
+```
