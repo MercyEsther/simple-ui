@@ -112,3 +112,19 @@ name: "sp-message"
     message="网络请求发生错误，请刷新页面重试..."
 />
 ```
+
+## Footer
+
+name: "sp-footer"
+
+#### params
+
+* @param {Array} items (name | icon | to)
+    icon: (home | setting | shopping | work | star | safe | img | file | extension | load | reload | menu | account)
+* @param {String} theme (light | dark | blue | yellow | sea | fire)
+
+#### use
+
+```html
+<sp-footer theme="sea" :items="items"/>
+```
