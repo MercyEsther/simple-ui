@@ -14,7 +14,13 @@ write some options
 ```javascript
 // config.js
 
-module.exports = {
+const path = require("path");
 
+module.exports = {
+    output: {
+        path: path.resolve(__dirname, "../dist"),
+        filename: "Home.vue"
+    },
+    
 }
 ```
