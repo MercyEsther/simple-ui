@@ -19,6 +19,28 @@ Vue.use(SimpleUI);
 
 ---
 
+icon name list: 
+
+* load
+* home
+* home1
+* account
+* reload
+* setting
+* setting1
+* extension
+* star
+* shopping
+* safe
+* work
+* menu
+* order
+* file
+* img
+* data
+* shipment
+* recharge
+
 ## Button
 
 name: "sp-button"
@@ -192,28 +214,6 @@ name: "sp-card"
 * @param {String} pages
 * @param {eventHandler} leftHandler
 * @param {eventHandler} rightHandler
-
-icon name list: 
-
-* load
-* home
-* home1
-* account
-* reload
-* setting
-* setting1
-* extension
-* star
-* shopping
-* safe
-* work
-* menu
-* order
-* file
-* img
-* data
-* shipment
-* recharge
 
 ```html
 <template>
