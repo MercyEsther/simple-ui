@@ -38,6 +38,8 @@ name: "sp-button"
 
 ## Header
 
+![Header](./assets/imgs/header.png)
+
 name: "sp-header"
 
 #### params:
