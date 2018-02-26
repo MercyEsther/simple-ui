@@ -40,11 +40,10 @@
     position: relative;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
     align-items: center;
     border-radius: 3px;
     outline: none;
+    text-align: center;
 }
 #button-wrapper:active{
     border-width: 3px;
@@ -52,7 +51,7 @@
 .wrapper-size-default{
     width: 18vw;
     height: 8vw;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .wrapper-color-default{
     background-color: $light-grey;
@@ -62,7 +61,7 @@
 .wrapper-size-small{
     width: 15vw;
     height: 7vw;
-    font-size: 1vw;
+    font-size: 3vw;
 }
 .wrapper-size-big{
     width: 23vw;

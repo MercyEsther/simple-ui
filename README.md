@@ -156,3 +156,45 @@ name: "sp-panel"
 ```javascript
 <sp-panel class="panel" title="常用功能" theme="default" :items="items"/>
 ```
+
+## card
+
+name: "sp-card"
+
+#### params
+
+* @param {String} title
+* @param {String} theme
+* @param {Array} items
+* @param {String} pages
+* @param {eventHandler} leftHandler
+* @param {eventHandler} rightHandler
+
+```html
+<template>
+    <sp-card 
+        title="发货单" 
+        :items="items"
+        pages="10"
+        @leftHandler="leftHandler" @rightHandler="rightHandler" />
+</template>
+```
+
+```javascript
+export default {
+    data(){
+        return {
+            items: [{
+                title: "order list",
+                subTitle: "east of city hotel",
+                right: "1000.0¥",
+                state: "done",
+                desc: [
+                    "2010-10-10 - 2018-10-10",
+                    "0000051283"
+                ]
+            }]
+        }
+    }
+}
+```

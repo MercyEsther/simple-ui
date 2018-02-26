@@ -5,6 +5,7 @@ import Message from "./components/message";
 import Footer from "./components/footer";
 import Waiting from "./components/waiting";
 import Panel from "./components/panel";
+import Card from "./components/card";
 
 const install = (Vue, config = {}) => {
     Vue.component(Button.name, Button);
@@ -14,6 +15,7 @@ const install = (Vue, config = {}) => {
     Vue.component(Footer.name, Footer);
     Vue.component(Waiting.name, Waiting);
     Vue.component(Panel.name, Panel);
+    Vue.component(Card.name, Card);
 }
 export default install;
 
@@ -24,5 +26,6 @@ export {
     Message,
     Footer,
     Waiting,
-    Panel
+    Panel,
+    Card
 }
