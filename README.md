@@ -36,17 +36,23 @@ name: "sp-button"
 </sp-button>
 ```
 
+
+
 ## Header
 
-![Header](./assets/imgs/header.png)
+<div style="position: relative; display: flex; flex-direction: row;">
+<img src="./assets/imgs/header.png" height="150" style="margin-right: 50px"/>
+<img src="./assets/imgs/header1.png" height="150"/>
+</div>
 
 name: "sp-header"
 
 #### params:
 
-- title
-- lett
-- right
+- @param {slot} title
+- @param {slot} lett
+- @param {slot} right
+- @param {String} color
 
 #### use:
 
@@ -95,6 +101,8 @@ name: "sp-toggle"
 
 ## Message
 
+<img src="assets/imgs/message.png" width="200px">
+
 name: "sp-message"
 
 #### params
@@ -117,6 +125,8 @@ name: "sp-message"
 
 ## Footer
 
+<img src="assets/imgs/footer.png" width="280"/>
+
 name: "sp-footer"
 
 #### params
@@ -133,6 +143,7 @@ name: "sp-footer"
 
 ## Waiting
 
+
 name: "sp-waiting"
 
 #### params
@@ -147,6 +158,8 @@ name: "sp-waiting"
 
 ## Panel
 
+<img src="assets/imgs/panel.png" width="240"/>
+
 name: "sp-panel"
 
 #### params
@@ -155,11 +168,19 @@ name: "sp-panel"
  * @param {Array} items
  * @param {theme} theme
 
+ theme: 
+
+* sea
+* dark
+* default
+
 ```javascript
 <sp-panel class="panel" title="常用功能" theme="default" :items="items"/>
 ```
 
 ## card
+
+<img src="assets/imgs/card.png" width="240px"/>
 
 name: "sp-card"
 
@@ -171,6 +192,28 @@ name: "sp-card"
 * @param {String} pages
 * @param {eventHandler} leftHandler
 * @param {eventHandler} rightHandler
+
+icon name list: 
+
+* load
+* home
+* home1
+* account
+* reload
+* setting
+* setting1
+* extension
+* star
+* shopping
+* safe
+* work
+* menu
+* order
+* file
+* img
+* data
+* shipment
+* recharge
 
 ```html
 <template>

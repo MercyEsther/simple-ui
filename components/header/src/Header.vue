@@ -21,6 +21,7 @@
  * @param {slot} [name=title]
  * @param {slot} [name=left]
  * @param {slot} [name=right]
+ * @param {String} color
  */
     import Toggle from "../../toggle";
     export default {
